@@ -18,6 +18,15 @@ app.get('/', (req, res) => {
   });
 });
 
+// Add a new health check endpoint
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'healthy',
+    timestamp: new Date().toISOString(),
+    version: '1.0.1'
+  });
+});
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 }); 
