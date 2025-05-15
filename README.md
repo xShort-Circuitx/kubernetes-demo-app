@@ -1,5 +1,7 @@
 # Kubernetes Demo Application
 
+[![Build and Deploy](https://github.com/xShort-Circuitx/kubernetes-demo-app/actions/workflows/deploy.yml/badge.svg)](https://github.com/xShort-Circuitx/kubernetes-demo-app/actions/workflows/deploy.yml)
+
 This is a simple web application deployed on Kubernetes using Minikube, demonstrating basic Kubernetes concepts and CI/CD practices.
 
 ## Prerequisites
